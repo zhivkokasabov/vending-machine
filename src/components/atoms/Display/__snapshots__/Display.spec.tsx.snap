@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CoinSlotPanel tests should render 1`] = `
+<DocumentFragment>
+  <div
+    class="bg-black rounded p-4 text-right text-white undefined"
+    data-testid="display"
+  >
+    <p
+      class="text-4xl text-sky-600 font-bold mb-2"
+    >
+      12
+    </p>
+    <p
+      class="h-6 text-2xl max-w-40 text-ellipsis overflow-hidden mb-2"
+    >
+      code
+    </p>
+    <p
+      class="h-10 text-sm"
+    >
+      message
+    </p>
+  </div>
+</DocumentFragment>
+`;

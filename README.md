@@ -2,35 +2,45 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 
-First, run the development server:
+Follow these steps to run the project locally:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. Navigate to the `api` folder and run the mock api:
+   ```cmd
+   cd api
+   npm install
+   npm run start
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Navigate to the root folder an run the app:
+   ```cmd
+   npm install
+   npm run build
+   npm run start
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Open your browser and go to
+  http://localhost:3000
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Accepted denominations
+  - 0.01
+  - 0.02
+  - 0.05
+  - 0.10
+  - 0.20
+  - 0.50
+  - 1.00
+  - 2.00
 
-## Learn More
+For simplicity the app provides a random denomination generator button. It will generate a number between 2.01 and 2.99
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Note for developers
+- Inventory size – up to 15 products of the same type
+- Price of products – should be different for each type
+- Use a currency of your choice, but please note the accepted coin denominations in a
+readme file. Make sure your vending machine accepts only the selected denominations
+- The machine must return change
+- Web Design: responsive
+Operations to be implemented:
+- Products - Get initial products list data from external resource (mocked API created by
+you)
+- CRUD operations for the products only in the application state (products data is not
+needed to be updated in the external resource)
+- Vending – Insert coins, buy product, reset process (return the coins without purchase)

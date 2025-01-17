@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Products tests should render 1`] = `
+<DocumentFragment>
+  <div
+    class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-6 grow gap-2 gap-y-8"
+  >
+    <div
+      class="flex flex-col"
+      data-testid="product"
+    >
+      <div
+        class="relative text-center grow pt-[50%]"
+      >
+        <img
+          alt="Soda Can"
+          data-nimg="fill"
+          decoding="async"
+          sizes="(max-width: 640px) 100vw, (max-width: 769px) 50vw, (max-width: 1200px) 25vw"
+          src="/_next/image?url=https%3A%2F%2Fpicsum.photos%2F600%2F300%3Ftext%3DSoda%2BCan&w=3840&q=75"
+          srcset="/_next/image?url=https%3A%2F%2Fpicsum.photos%2F600%2F300%3Ftext%3DSoda%2BCan&w=256&q=75 256w, /_next/image?url=https%3A%2F%2Fpicsum.photos%2F600%2F300%3Ftext%3DSoda%2BCan&w=384&q=75 384w, /_next/image?url=https%3A%2F%2Fpicsum.photos%2F600%2F300%3Ftext%3DSoda%2BCan&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fpicsum.photos%2F600%2F300%3Ftext%3DSoda%2BCan&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fpicsum.photos%2F600%2F300%3Ftext%3DSoda%2BCan&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fpicsum.photos%2F600%2F300%3Ftext%3DSoda%2BCan&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fpicsum.photos%2F600%2F300%3Ftext%3DSoda%2BCan&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fpicsum.photos%2F600%2F300%3Ftext%3DSoda%2BCan&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fpicsum.photos%2F600%2F300%3Ftext%3DSoda%2BCan&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fpicsum.photos%2F600%2F300%3Ftext%3DSoda%2BCan&w=3840&q=75 3840w"
+          style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; object-fit: cover; color: transparent;"
+        />
+      </div>
+      <div
+        class="flex justify-center"
+      >
+        <span
+          class="py-1 px-2 text-sm bg-white"
+        >
+          001
+        </span>
+        <span
+          class="py-1 px-2 text-sm bg-black text-white"
+        >
+          1.25
+        </span>
+      </div>
+    </div>
+    <div
+      class="flex flex-col"
+      data-testid="product"
+    >
+      <div
+        class="relative text-center grow pt-[50%]"
+      >
+        <img
+          alt="Candy Bar"
+          data-nimg="fill"
+          decoding="async"
+          sizes="(max-width: 640px) 100vw, (max-width: 769px) 50vw, (max-width: 1200px) 25vw"
+          src="/_next/image?url=https%3A%2F%2Fpicsum.photos%2F600%2F300%3Ftext%3DCandy%2BBar&w=3840&q=75"
+          srcset="/_next/image?url=https%3A%2F%2Fpicsum.photos%2F600%2F300%3Ftext%3DCandy%2BBar&w=256&q=75 256w, /_next/image?url=https%3A%2F%2Fpicsum.photos%2F600%2F300%3Ftext%3DCandy%2BBar&w=384&q=75 384w, /_next/image?url=https%3A%2F%2Fpicsum.photos%2F600%2F300%3Ftext%3DCandy%2BBar&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fpicsum.photos%2F600%2F300%3Ftext%3DCandy%2BBar&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fpicsum.photos%2F600%2F300%3Ftext%3DCandy%2BBar&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fpicsum.photos%2F600%2F300%3Ftext%3DCandy%2BBar&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fpicsum.photos%2F600%2F300%3Ftext%3DCandy%2BBar&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fpicsum.photos%2F600%2F300%3Ftext%3DCandy%2BBar&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fpicsum.photos%2F600%2F300%3Ftext%3DCandy%2BBar&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fpicsum.photos%2F600%2F300%3Ftext%3DCandy%2BBar&w=3840&q=75 3840w"
+          style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; object-fit: cover; color: transparent;"
+        />
+        <div
+          class="absolute left-1/2 top-1/2 bg-white shadow -translate-x-1/2 -translate-y-1/2 text-nowrap px-2 py-1 text-sm"
+        >
+          Out of stock
+        </div>
+      </div>
+      <div
+        class="flex justify-center"
+      >
+        <span
+          class="py-1 px-2 text-sm bg-white"
+        >
+          002
+        </span>
+        <span
+          class="py-1 px-2 text-sm bg-black text-white"
+        >
+          0.75
+        </span>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

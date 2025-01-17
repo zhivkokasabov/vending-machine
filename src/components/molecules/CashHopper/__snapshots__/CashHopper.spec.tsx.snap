@@ -1,0 +1,117 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CashHopper tests should group coins 1`] = `
+<DocumentFragment>
+  <div
+    class="flex gap-2 pt-4 w-full max-w-full flex-wrap"
+    data-testid="cash-hopper"
+  >
+    <div
+      class="relative w-[3rem] h-[3rem]"
+    >
+      <div
+        class="flex items-center bg-gray-500 border-black text-white rounded-full justify-center border w-[3rem] h-[3rem] absolute left-0 top-[0px]"
+        style="transform: perspective(500px) rotateX(50deg);"
+      >
+        1.00
+      </div>
+      <div
+        class="flex items-center bg-gray-500 border-black text-white rounded-full justify-center border w-[3rem] h-[3rem] absolute left-0 top-[-3px]"
+        style="transform: perspective(500px) rotateX(50deg);"
+      >
+        1.00
+      </div>
+    </div>
+    <div
+      class="relative w-[3rem] h-[3rem]"
+    >
+      <div
+        class="flex items-center bg-gray-500 border-black text-white rounded-full justify-center border w-[3rem] h-[3rem] absolute left-0 top-[0px]"
+        style="transform: perspective(500px) rotateX(50deg);"
+      >
+        2.00
+      </div>
+      <div
+        class="flex items-center bg-gray-500 border-black text-white rounded-full justify-center border w-[3rem] h-[3rem] absolute left-0 top-[-3px]"
+        style="transform: perspective(500px) rotateX(50deg);"
+      >
+        2.00
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`CashHopper tests should not stack more than 5 coins 1`] = `
+<DocumentFragment>
+  <div
+    class="flex gap-2 pt-4 w-full max-w-full flex-wrap"
+    data-testid="cash-hopper"
+  >
+    <div
+      class="relative w-[3rem] h-[3rem]"
+    >
+      <div
+        class="flex items-center bg-gray-500 border-black text-white rounded-full justify-center border w-[3rem] h-[3rem] absolute left-0 top-[0px]"
+        style="transform: perspective(500px) rotateX(50deg);"
+      >
+        1.00
+      </div>
+      <div
+        class="flex items-center bg-gray-500 border-black text-white rounded-full justify-center border w-[3rem] h-[3rem] absolute left-0 top-[-3px]"
+        style="transform: perspective(500px) rotateX(50deg);"
+      >
+        1.00
+      </div>
+    </div>
+    <div
+      class="relative w-[3rem] h-[3rem]"
+    >
+      <div
+        class="flex items-center bg-gray-500 border-black text-white rounded-full justify-center border w-[3rem] h-[3rem] absolute left-0 top-[0px]"
+        style="transform: perspective(500px) rotateX(50deg);"
+      >
+        2.00
+      </div>
+      <div
+        class="flex items-center bg-gray-500 border-black text-white rounded-full justify-center border w-[3rem] h-[3rem] absolute left-0 top-[-3px]"
+        style="transform: perspective(500px) rotateX(50deg);"
+      >
+        2.00
+      </div>
+      <div
+        class="flex items-center bg-gray-500 border-black text-white rounded-full justify-center border w-[3rem] h-[3rem] absolute left-0 top-[-6px]"
+        style="transform: perspective(500px) rotateX(50deg);"
+      >
+        2.00
+      </div>
+      <div
+        class="flex items-center bg-gray-500 border-black text-white rounded-full justify-center border w-[3rem] h-[3rem] absolute left-0 top-[-9px]"
+        style="transform: perspective(500px) rotateX(50deg);"
+      >
+        2.00
+      </div>
+      <div
+        class="flex items-center bg-gray-500 border-black text-white rounded-full justify-center border w-[3rem] h-[3rem] absolute left-0 top-[-12px]"
+        style="transform: perspective(500px) rotateX(50deg);"
+      >
+        2.00
+      </div>
+      <div
+        class="absolute bottom-[0.5rem] right-[-1px] rounded-full bg-white border border-black text-center w-4 h-4 text-xs"
+      >
+        7
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`CashHopper tests should render 1`] = `
+<DocumentFragment>
+  <div
+    class="flex gap-2 pt-4 w-full max-w-full flex-wrap"
+    data-testid="cash-hopper"
+  />
+</DocumentFragment>
+`;

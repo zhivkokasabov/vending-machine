@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Divider tests should render 1`] = `
+<DocumentFragment>
+  <div
+    class="w-full h-[1px] bg-black my-4"
+  />
+</DocumentFragment>
+`;
