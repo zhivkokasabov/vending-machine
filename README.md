@@ -5,12 +5,14 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 Follow these steps to run the project locally:
 
 1. Navigate to the `api` folder and run the mock api:
+
    ```cmd
    cd api
    npm install
    npm run start
 
 2. Navigate to the root folder an run the app:
+
    ```cmd
    npm install
    npm run build
@@ -38,7 +40,9 @@ For simplicity the app provides a random denomination generator button. It will 
 readme file. Make sure your vending machine accepts only the selected denominations
 - The machine must return change
 - Web Design: responsive
+
 Operations to be implemented:
+
 - Products - Get initial products list data from external resource (mocked API created by
 you)
 - CRUD operations for the products only in the application state (products data is not
