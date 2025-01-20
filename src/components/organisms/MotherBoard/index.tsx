@@ -23,7 +23,7 @@ export const MotherBoard = forwardRef<RefProps>(function Brain(_, ref) {
 
   const calculateChange = (amount: number) => {
     const coins = [];
-    let sumToReturn = amount * 100;
+    let sumToReturn = Math.round(amount * 100);
     let index = denominations.length - 1;
 
     while (sumToReturn > 0) {

@@ -1,7 +1,8 @@
-import { Button } from "components/ui/button";
-import { forwardRef, PropsWithChildren } from "react";
+import { ButtonHTMLAttributes, forwardRef, PropsWithChildren } from "react";
 
-export type ControlProps = {
+import { Button } from "components/ui/button";
+
+export type ControlProps = ButtonHTMLAttributes<HTMLButtonElement> & {
   onClick: () => void;
   className?: string;
   variant?: Extract<React.ComponentProps<typeof Button>['variant'], string>;
@@ -11,7 +12,8 @@ export const Control = forwardRef<HTMLButtonElement, PropsWithChildren<ControlPr
   onClick,
   children,
   className,
-  variant = "outline"
+  variant = "outline",
+  ...rest
 }, ref) {
   return (
     <Button
@@ -19,6 +21,7 @@ export const Control = forwardRef<HTMLButtonElement, PropsWithChildren<ControlPr
       className={`${className} rounded-full w-[3rem] h-[3rem]`}
       onClick={onClick}
       ref={ref}
+      {...rest}
     >
       {children}
     </Button>

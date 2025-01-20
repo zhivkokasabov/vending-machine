@@ -1,5 +1,3 @@
-import React from "react";
-
 import { Coin } from "components/atoms/Coin";
 import { useCashHopper } from "providers/CashHopper.provider";
 

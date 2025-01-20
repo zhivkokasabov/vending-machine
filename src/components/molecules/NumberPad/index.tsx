@@ -40,7 +40,7 @@ export const NumberPad: FC<NumberPadProps> = ({
         <Tooltip>
           <TooltipTrigger asChild>
             <span>
-              <Control onClick={onCancel} variant="destructive">
+              <Control onClick={onCancel} variant="destructive" aria-label="clear code">
                 <XIcon />
               </Control>
             </span>
@@ -55,7 +55,7 @@ export const NumberPad: FC<NumberPadProps> = ({
         <Tooltip>
           <TooltipTrigger asChild>
             <span>
-              <Control onClick={onCashOut} variant="default">
+              <Control onClick={onCashOut} variant="default" aria-label="cash out">
                 <HandCoinsIcon />
               </Control>
             </span>
